@@ -1,12 +1,3 @@
-function sleep(milliseconds) {
-  var start = new Date().getTime();
-  for (var i = 0; i < 1e7; i++) {
-    if ((new Date().getTime() - start) > milliseconds){
-      break;
-    }
-  }
-}
-
 function p1uncover(){
     document.getElementById("p1").style.backgroundImage = "url(images/penguin_1.png)";
     document.getElementById('p1').id = 'p1-clicked';
@@ -120,9 +111,6 @@ function yetiuncover(){
   	    alert("YARRRRRRRR!!!!!");
   	    info();
     },500)
-    
-    
-    
 }
 
 function yetihover(){
